@@ -67,6 +67,6 @@ function getContent(url, addEntry) {
          else {
              $('.pop_up').fadeOut();
              $('main').css('filter','none');
-             window.history.replaceState({page:0},null,'https://egordashko.gitlab.io/agro/');
+             window.history.replaceState({page:0},null,'https://gajvoronskijsv.github.io/agro/');
          }
         }
