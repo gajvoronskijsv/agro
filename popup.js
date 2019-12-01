@@ -28,13 +28,13 @@ function validate() {
         {
             a=function done(){
             $(this).find("input").val("");
-            alert("Спасибо за заявку! Мы скоро свяжемся с Вами!");
+            alert("Форма отправлена");
             $('#form').trigger("reset");
         } 
     }
         else {
            a=function fail(){
-            alert("Что-то пошло не так");
+            alert("Не все поля заполнены");
         }
     }   
         a();
